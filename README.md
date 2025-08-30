@@ -1,12 +1,19 @@
-# React + Vite
+## Expanding Strip Gallery Interaction
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project includes a custom "Expanding Strip Gallery" component: a horizontal row of images that begin as slim vertical strips and smoothly expand on hover or keyboard focus.
 
-Currently, two official plugins are available:
+### How it Works (High Level)
+1. All images render initially at a small fixed collapsed width (creating the slit effect) inside a flex container.
+2. When the user hovers or focuses a strip, that strip animates its width to the configured expanded size while siblings stay collapsed.
+3. Moving the pointer across strips switches the active one seamlessly; leaving the gallery (or blurring) collapses everything back.
+4. A short hover intent delay reduces flicker when the pointer skims quickly over gaps.
+5. Motion uses spring physics (via the `motion` library) for natural easing and respects "prefers-reduced-motion" for accessibility.
+6. Images lazy‑load only when near the viewport to improve performance.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Why This Approach
+* Animating width (or flex-basis) inside a single flex row avoids layout jumps.
+* Memoized strip components limit re-renders to only what changes.
+* Lazy loading + priority hints optimize perceived performance.
+* Accessible: focus triggers expansion; reduced motion disables animation duration.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
