@@ -9,7 +9,7 @@ function App() {
     <div className='w-full h-screen'>
       {/* <StripGallery /> */}
       <CardStackSection />
-      {/* <TextMotion /> */}
+      <TextMotion />
     </div>
   )
 }

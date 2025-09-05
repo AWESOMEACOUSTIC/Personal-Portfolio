@@ -1,7 +1,3 @@
-"use client";
-import React from "react";
-
-
 export default function LogoShell({ children }) {
     return (
         <div className="min-h-[60vh] grid place-items-center bg-neutral-50 p-6">
@@ -10,4 +6,4 @@ export default function LogoShell({ children }) {
             </div>
         </div>
     );
-}
+} 
