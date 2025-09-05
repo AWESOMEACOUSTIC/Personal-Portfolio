@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: 'canope';
+  src: url('./assets/fonts/canopee.ttf') format('woff2');
+  font-weight: 400;
+  font-style: medium;
+}

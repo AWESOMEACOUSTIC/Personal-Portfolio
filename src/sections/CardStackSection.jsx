@@ -41,7 +41,7 @@ export default function CardStackSection() {
       <section className="w-full">
         {/* top copy (static) */}
         <div className="mx-auto max-w-3xl px-6 pt-20 pb-10 text-center">
-          <h2 className="text-3xl md:text-4xl font-semibold tracking-tight">
+          <h2 className="text-3xl md:text-4xl font-[canope] font-semibold tracking-tight">
             Stacked work cards that unfurl on scroll
           </h2>
           <p className="mt-4 text-zinc-600">
@@ -73,8 +73,8 @@ export default function CardStackSection() {
         </div>
 
         {/* bottom copy (static) */}
-        <div className="mx-auto max-w-3xl px-6 pt-12 pb-24 text-center">
-          <h3 className="text-2xl font-medium">Scroll back up to restack</h3>
+        <div className="mx-auto max-w-3xl px-6 mt-25 pt-12 pb-24 text-center">
+          <h3 className="text-4xl font-[canope]">Scroll back up to restack</h3>
           <p className="mt-3 text-zinc-600">
             Powered by <code>useScroll</code>, <code>useTransform</code>, and <code>useSpring</code> from <code>motion/react</code>.
           </p>
