@@ -24,3 +24,5 @@ dist-ssr
 *.sw?
 
 flow.md
+CardStackStarter.jsx
+CardStack.jsx
