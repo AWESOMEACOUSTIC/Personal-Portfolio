@@ -2,73 +2,73 @@ export const cards = [
   {
     id: 1,
     defaultSrc:
-      "https://framerusercontent.com/images/xJ4VI5dc1aKjWzvqscHOZwOEOiU.jpg?scale-down-to=512&width=4768&height=7151",
+      "https://i.pinimg.com/1200x/3c/32/2e/3c322ed0b24dca947438a4f091547c1d.jpg",
     hoverSrc:
-      "https://framerusercontent.com/images/BSaz0fXWU2uFOAYeuZvwhgP7Rk.jpeg?width=928&height=1160",
+      "https://i.pinimg.com/1200x/0c/34/40/0c34408a2f4a526a15df69becf04ebe5.jpg",
     alt: "Fluffy rabbit on a floral chair",
   },
   {
     id: 2,
     defaultSrc:
-      "https://framerusercontent.com/images/V3IvVt18lBJ6hNuki7Bct7LtLl4.jpg?width=3738&height=4987",
+      "https://i.pinimg.com/736x/f6/60/fd/f660fdc0be1bc9faa08799fe28424dae.jpg",
     hoverSrc:
-      "https://framerusercontent.com/images/DUGrdR9WgdBilQ33iHslUzlPI.jpg?width=2848&height=3792",
+      "https://i.pinimg.com/736x/f9/50/0d/f9500d73c2c6b59f2162f4bc35019acb.jpg",
     alt: "Lotus flower against cloudy sky",
   },
   {
     id: 3,
     defaultSrc:
-      "https://framerusercontent.com/images/RBiQ5RAej3M9Gq9cWtbbjDr8A.jpg?width=4002&height=5995",
+      "https://i.pinimg.com/1200x/dc/17/df/dc17dfe10ae20d71a8f7ba719a29ef6f.jpg",
     hoverSrc:
-      "https://framerusercontent.com/images/9YeROwasiM7f0xtJSYY5sQFMe38.jpg?width=4000&height=6000",
+      "https://i.pinimg.com/736x/ba/54/2f/ba542f73642c5332b1f919b36b0b90a6.jpg",
     alt: "Lone tree silhouette at sunset",
   },
   {
     id: 4,
     defaultSrc:
-      "https://framerusercontent.com/images/8S3RcbIfQCwsuxt3ZWXeslItug.jpg?width=4806&height=7209",
+      "https://i.pinimg.com/736x/c3/e2/d2/c3e2d2d01744b5393b4de9e7ed4d3f27.jpg",
     hoverSrc:
-      "https://framerusercontent.com/images/YIUdKBPd3rYNLcdUAifT9GIptRk.jpg?width=3024&height=4032",
+      "https://i.pinimg.com/736x/43/6d/ad/436dadb9b10be945c7959a7e5cdd0cc8.jpg",
     alt: "Palm tree on a sandy beach",
   },
   {
     id: 5,
     defaultSrc:
-      "https://framerusercontent.com/images/gDSlQDS8fFiHxjdEZtfM644AMWg.jpg?width=3630&height=5445",
+      "https://i.pinimg.com/736x/c6/fa/6a/c6fa6ab134d8e81f51686fd014ef530d.jpg",
     hoverSrc:
-      "https://framerusercontent.com/images/c57bYwLV7EcqLU8pMQwEXJeWZs.jpg?width=2267&height=3400",
+      "https://i.pinimg.com/736x/66/30/c6/6630c6a18475e11eb9c431f89de4698c.jpg",
     alt: "Dark green baseball cap",
   },
   {
     id: 6,
     defaultSrc:
-      "https://framerusercontent.com/images/KJ7anciccQf5MJJV7cwiYDCHY.jpg?width=3002&height=4503",
+      "https://i.pinimg.com/736x/9a/c7/37/9ac737b49fa9a7b6d414154c21ec66f5.jpg",
     hoverSrc:
-      "https://framerusercontent.com/images/Iwer8B9yXTymcKsFLjOWjkRIVw.jpg?width=4000&height=6000",
+      "https://i.pinimg.com/736x/4a/ca/33/4aca33c0891618282fb07c9d2171519a.jpg",
     alt: "Chair floating on calm water",
   },
   {
     id: 7,
     defaultSrc:
-      "https://framerusercontent.com/images/8jObj2TAwGjeJMxk3CCLectyk.jpg?width=3661&height=4724",
+      "https://i.pinimg.com/736x/1f/53/53/1f53537e53b520e12516b301c76f0a8d.jpg",
     hoverSrc:
-      "https://framerusercontent.com/images/nDEAquzEDeb4ziygK2VqKU9U.jpg?width=3649&height=5444",
+      "https://i.pinimg.com/1200x/4f/b6/90/4fb69074bf0dcc83f3bdddd1bd497e6b.jpg",
     alt: "Abstract painting with bold brushstrokes",
   },
   {
     id: 8,
     defaultSrc:
-      "https://framerusercontent.com/images/4Hg0sv7400Yx05RGwp6wEX0Jw.jpg?width=3042&height=4565",
+      "https://i.pinimg.com/736x/65/12/20/651220a14a05b0ad003127a2761a55fa.jpg",
     hoverSrc:
-      "https://framerusercontent.com/images/57VisoKOEOA90s1lPzg75ZoBij0.jpg?width=3757&height=4696",
+      "https://i.pinimg.com/736x/4e/64/1f/4e641fe1c47f3caa52659e7176f5d5fd.jpg",
     alt: "Vintage camera on wood surface",
   },
   {
     id: 9,
     defaultSrc:
-      "https://framerusercontent.com/images/Gwvzsn9kru4RI1wsvNjTLrF6Z8.jpg?width=2844&height=3902",
+      "https://i.pinimg.com/736x/a7/e9/6a/a7e96a7551fb4a6a12328f90cb252809.jpg",
     hoverSrc:
-      "https://framerusercontent.com/images/urmm5uCcz46SZuSeWussPnbfl4.jpg?width=3240&height=4050",
+      "https://i.pinimg.com/736x/32/00/06/320006a3e75685b0765769ac5c7cd11e.jpg",
     alt: "Modern living room with TV",
   },
 ];
