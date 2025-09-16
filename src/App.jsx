@@ -8,12 +8,12 @@ import CardStack from './sections/CardStack'
 
 function App() {
   return (
-    <div className='w-full h-screen flex items-center justify-center'>
+    <div className='w-full h-screen '>
       {/* <StripGallery /> */}
       {/* <CardStackSection /> */}
-      {/* <TextMotion /> */}
+      <TextMotion />
       {/* <GlowText>Glow</GlowText> */}
-      <CardStack/>
+      {/* <CardStack/> */}
     </div>
   )
 }
