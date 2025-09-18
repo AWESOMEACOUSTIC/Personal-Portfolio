@@ -6,3 +6,10 @@
   font-weight: 400;
   font-style: medium;
 }
+
+@font-face {
+  font-family: 'smarkan';
+  src: url('./assets/fonts/Samarkan Normal.ttf') format('woff2');
+  font-weight: 400;
+  font-style: medium;
+}

@@ -58,10 +58,10 @@ export default function Circle() {
     >
       {/* Static Center Text */}
       <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none">
-        <p className="text-black font-medium text-center">
-          The future is built on Artificial Intelligence
+        <p className="text-black text-4xl font-[smarkan] text-center">
+          Aham Brahmasmi
         </p>
-        <p className="text-gray-500 mt-1 text-center">
+        <p className="text-gray-500 mt-1 text-center font-[canope]">
           HOVER TO EXPLORE
         </p>
       </div>
